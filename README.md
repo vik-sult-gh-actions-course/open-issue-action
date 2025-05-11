@@ -274,3 +274,10 @@ To check the status of cached licenses, run the following command:
 ```bash
 licensed status
 ```
+
+Branding
+
+https://docs.github.com/en/actions/sharing-automations/creating-actions/metadata-syntax-for-github-actions#branding
+
+Adding a workflow status badge
+https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/monitoring-workflows/adding-a-workflow-status-badge
