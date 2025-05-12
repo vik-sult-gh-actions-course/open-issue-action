@@ -11,7 +11,7 @@ jobs:
   units:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v3
       - run: npm ci
       - run: npm test
 
@@ -27,5 +27,5 @@ jobs:
           title: Test Issue
           body: Test issue body
           assignees: |
-            viktoriiasultanovska
+            alialaa
       - run: echo ${{ steps.issue.outputs.issue }}
